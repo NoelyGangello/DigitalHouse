@@ -9,7 +9,7 @@ Desenvolva esse código usando apenas a condicional IF (quantas vezes for
 necessário)*/
 
 
-var notasUsuarios = 10
+var notasUsuarios = 10;
 
 if(notasUsuarios == 9 || notasUsuarios == 10){
     console.log("Excelente");
@@ -20,5 +20,5 @@ if(notasUsuarios >= 6 & notasUsuarios <= 8){
 }
 
 if(notasUsuarios < 5 ){
-    console.log ("Não gostei")
+    console.log ("Não gostei");
 }
