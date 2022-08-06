@@ -1,0 +1,6 @@
+
+
+# Pensamento Lógico - respostas
+---
+
+Exercício
