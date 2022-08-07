@@ -8,12 +8,12 @@ O sistema deve cumprimentar o usuário independente da idade, o resultado seria 
 
 Caso o usuário tenha idade mínima para dirigir imprima: 
 
--“Olá, NOME_DO_USUARIO_AQUI”
--”Você passou no nosso teste e já pode dirigir!”.
+    “Olá, NOME_DO_USUARIO_AQUI”
+    ”Você passou no nosso teste e já pode dirigir!”.
 
 Caso o usuário não tenha a idade mínima para dirigir imprima somente o cumprimento:
 
--“Olá, NOME_DO_USUARIO_AQUI”
+    “Olá, NOME_DO_USUARIO_AQUI”
 
 ```javascript
 // RESPOSTA:
