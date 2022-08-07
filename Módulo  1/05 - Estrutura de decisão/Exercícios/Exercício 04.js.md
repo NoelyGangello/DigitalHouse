@@ -4,10 +4,10 @@
 
 Precisamos verificar se uma pessoa pode se aposentar com base na idade. Utilize a condicional if else para verificar se a variável idade é maior que 65 e imprima uma mensagem para cada caso:
 
-Condição verdadeira : 
+Condição verdadeira 
     “Você já pode se aposentar”
 
-Condição falsa: 
+Condição falsa
     “Você ainda não pode se aposentar”
 
 ```javascript
