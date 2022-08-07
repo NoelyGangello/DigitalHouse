@@ -9,7 +9,13 @@ Queremos criar um código que ajude o usuário a saber se ele pode comprar um pr
 
 Para escrever este código, teremos duas variáveis já definidas: produtoQtd, produtoAtivo. 
 
-Faça uma condição que supra a necessidade acima, se o usuário puder comprar o produto exiba a seguinte mensagem “Você pode finalizar essa compra”. Caso contrário exiba “Produto não está disponível para compra”.
+Faça uma condição que supra a necessidade acima, se o usuário puder comprar o produto exiba a seguinte mensagem 
+
+    “Você pode finalizar essa compra”. 
+    
+Caso contrário exiba 
+
+    “Produto não está disponível para compra”.
 
 ```javascript
 // RESPOSTA:
