@@ -1,13 +1,7 @@
-function print( v ) { console.log( v ) }
+var diaSemana = '9512951298228'
 
-var nome = "Taylor";
-var sobrenome = "Alvarenga";
-var profissao = "Programadora";
-
-// var cartaoDeVisita = nome + " " + sobrenome + " - " + profissao;
-
-var cartaoDeVisita = `${nome} ${sobrenome} - ${profissao}`;
-
-print(cartaoDeVisita); 
-
-// 08006606116
+if(diaSemana != "sabado" && diaSemana != "domingo"){
+    console.log("Você pode ir ao banco")
+}else{
+    console.log("O banco está fechado, tente outro dia")
+}
