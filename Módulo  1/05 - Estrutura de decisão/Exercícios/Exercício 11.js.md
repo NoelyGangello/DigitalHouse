@@ -6,7 +6,7 @@ Será que posso ir ao banco?
 
 Precisamos criar um código que ajude os usuários a saber se podem ir ao banco. Sabemos que o banco está aberto em todos os os dias da semana, exceto em  finais de semana. Caso o usuário possa ir ao banco você deve exibir com console.log a seguinte mensagem: 
 
-    “Você pode ir ao banco” 
+    "Você pode ir ao banco" 
     
 caso contrário 
 
