@@ -1,7 +1,25 @@
-var diaSemana = '9512951298228'
 
-if(diaSemana != "sabado" && diaSemana != "domingo"){
-    console.log("Você pode ir ao banco")
-}else{
-    console.log("O banco está fechado, tente outro dia")
-}
+// A função a seguir (calculaIdade) não precisa ser alterada
+// A sua função deve ser escrita logo abaixo desta
+function calcularIdade(dataDeNascimento) {
+    let [dia, mes, ano] = dataDeNascimento.split('/');
+    const d = new Date();
+    const anoAtual = d.getFullYear();
+    const mesAtual = d.getMonth() + 1;
+    const diaAtual = d.getDate();
+    ano = +ano; mes = +mes; dia = +dia;
+    let quantosAnos = anoAtual - ano;
+    if (mesAtual < mes || mesAtual == mes && diaAtual < dia) {
+        quantosAnos--;
+    }
+    return quantosAnos < 0 ? 0 : quantosAnos;
+ }
+  
+ function deixaEntrar(dataDeNascimento, censura){
+     return calcularIdade(dataDeNascimento) >= censura
+ }
+ 
+ console.log(deixaEntrar("14/09/1995", 14))
+
+
+
