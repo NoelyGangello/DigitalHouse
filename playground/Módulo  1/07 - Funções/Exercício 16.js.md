@@ -12,8 +12,8 @@ Precisamos agora que você escreva a função deixaEntrar(dataDeNascimento, cens
 
 
 A função deve receber dois parâmetros:
-    - O primeiro deve representar a data de nascimento do cliente no formato dd/mm/aaaa 
 
+    - O primeiro deve representar a data de nascimento do cliente no formato dd/mm/aaaa 
     - O segundo deve representar a censura da sessão, ou seja, a idade mínima do cliente para que ele possa acessar a sala.
 
 A função deve retornar true caso o cliente tenha idade maior ou igual a censura e false caso contrário.
